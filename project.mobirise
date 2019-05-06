@@ -1,27 +1,28 @@
 {
   "settings": {
     "name": "Antrona",
-    "currentPage": "page2.html",
+    "currentPage": "Doelgroepen.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise3",
       "styling": {
-        "primaryColor": "#c0a375",
+        "primaryColor": "#faaf40",
         "secondaryColor": "#bfcecb",
         "successColor": "#90a878",
         "infoColor": "#7e9b9f",
-        "warningColor": "#f3c649",
+        "warningColor": "#faaf40",
         "dangerColor": "#f28281",
         "titleFont": "Montserrat",
         "subtitleFont": "Lora",
         "textFont": "Raleway",
         "isRoundedButtons": false,
         "isAnimatedOnScroll": true,
-        "isScrollToTopButton": false,
+        "isScrollToTopButton": true,
         "isRtl": false
       },
       "additionalSetColors": [
-        "#2e2e2e"
+        "#2e2e2e",
+        "#8db3e2"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -30,18 +31,16 @@
     "favicon": "",
     "noImageResize": "",
     "google-analytics": "",
-    "uniqCompNum": 20,
-    "versionPublish": "4.9.7"
+    "uniqCompNum": 68,
+    "versionPublish": "4.9.7",
+    "screenshot": "screenshot.png"
   },
   "pages": {
-    "index.html": {
+    "Over-Antrona.html": {
       "settings": {
-        "main": true,
-        "title": "Home",
-        "meta_descr": "",
-        "header_custom": "",
-        "footer_custom": "",
-        "html_before": ""
+        "meta_descr": "Informatie over de achtergrond en de klanten van Antrona. ",
+        "title": "Over Antrona",
+        "order": 6
       },
       "components": [
         {
@@ -59,7 +58,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">DOELGROEPEN</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">New Item</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">TOOLS</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">OVER ANTRONA</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">Klanten<br></a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"https://mobirise.com/\">PREVIEW</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Home.html#msg-box3-5\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Doelgroepen.html#content7-1q\" aria-expanded=\"false\">DOELGROEPEN</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html#header3-14\">TOOLS</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Over-Antrona.html#header3-j\" aria-expanded=\"false\">OVER ANTRONA</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"preview.html#msg-box4-1d\">PREVIEW</a></li>",
           "_tags": [
             "Thema"
           ],
@@ -108,7 +107,356 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
+              "color": "#faaf40!important"
+            }
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-121x122.jpg",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Antrona</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-d"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            ".mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": "5",
+            "paddingBottom": "1",
+            "bgColor": "#fff"
+          },
+          "title": "Over Antrona",
+          "meta": "<br>Antrona is een initiatief van Icorp BV. Icorp levert bedrijfssoftware aan grote en middelgrote bedrijven.<br>Via Antrona komt een selectie van de business-software van Icorp ook beschikbaar voor kleinere bedrijven. <br>In vereenvoudigde vorm. Direct gebruiksklaar.\n<br>\n<br>Deze organisaties gingen je voor:&nbsp;",
+          "_tags": [
+            "Thema"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-j"
+        },
+        {
+          "_params": {
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": false,
+            "showButtons": false,
+            "paddingTop": "0",
+            "paddingBottom": 2,
+            "columns": 4,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/schiphol-area-development-company-600x400.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/bureau-stedelijke-planning3-542x400.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/600-onderwijsraad-logo-png-transparent-600x400.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "Logo Onderwijsraad",
+              "title": "Logo van de onderwijsraad, een klant van Icorp"
+            }
+          },
+          "media4": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/logo-multicorporation-600x400.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "Logo Multicorporation",
+              "title": "Logo Multicorporation, een klant van Icorp]"
+            }
+          },
+          "media5": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title1": "Schiphol Area Development Company",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "title2": "Bureau Stedelijke Planning",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "title3": "De Onderwijsraad",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Multi Corporation",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "_tags": [
+            "Thema"
+          ],
+          "_name": "features3",
+          "_anchor": "features3-f"
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/logo-1-121x122.jpg",
+              "class": "card-img-top",
+              "width": 265,
+              "active": true,
+              "link": "",
+              "alt": "Logo Antrona",
+              "title": "Logo Antrona"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-logo-contacts3",
+              "link": "",
+              "size": 0
+            }
+          },
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont-company-contacts3",
+              "linkInNewWindow": false,
+              "name": "facebook",
+              "family": "et-line",
+              "active": true,
+              "size": 0,
+              "color": "#c1c1c1"
+            }
+          },
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont-company-contacts3",
+              "linkInNewWindow": false,
+              "name": "linkedin",
+              "family": "et-line",
+              "active": true,
+              "size": 0,
+              "color": "#cccccc"
+            }
+          },
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont-company-contacts3",
+              "linkInNewWindow": false,
+              "name": "envelope",
+              "family": "et-line",
+              "active": true,
+              "size": 0,
+              "color": "#2e2e2e"
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Verzend&nbsp;</a>",
+          "title1": "Volg ons&nbsp;",
+          "text1": "Footer with solid color background and a contact form, Easily add subscribe and contact forms without any server-side integration.",
+          "text2": "<a href=\"https://www.facebook.com/AntronaNL/\" target=\"_blank\">AntronaNL</a>",
+          "text3": "<a href=\"https://www.linkedin.com/company/19057996/admin/\">AntronaNL</a>",
+          "text4": "",
+          "text5": "<p>Facebook</p><p>LinkedIn</p>",
+          "text6": "<strong>Contact</strong><br>Heb je een vraag over Antrona? Laat je gegevens achter via het contactformulier en dan nemen wij zo snel mogelijk contact met je op.&nbsp;<br><br><br><br><br>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "liselottevdijk@hotmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "visible": false,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": false,
+                "title": "Phone",
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "_tags": [
+            "Thema"
+          ],
+          "_name": "contacts3",
+          "_styles": {
+            ".list-group-text": {
+              "color": "#2e2e2e"
+            },
+            "P": {
+              "text-align": "left"
+            },
+            "SPAN": {
+              "color": "#cccccc"
+            }
+          },
+          "_anchor": "contacts3-e"
+        }
+      ]
+    },
+    "Home.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "Homepage van de marketingwebsite van Antrona. ",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Home.html#msg-box3-5\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Doelgroepen.html#content7-1q\" aria-expanded=\"false\">DOELGROEPEN</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html#header3-14\">TOOLS</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Over-Antrona.html#header3-j\" aria-expanded=\"false\">OVER ANTRONA</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"preview.html#msg-box4-1d\">PREVIEW</a></li>",
+          "_tags": [
+            "Thema"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#faaf40!important"
             }
           },
           "logo": {
@@ -142,9 +490,9 @@
             "showText": true,
             "showButton": true,
             "paddingTop": "3",
-            "paddingBottom": "3",
+            "paddingBottom": "2",
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/desert.jpg",
             "parallax": true,
             "bgColorRadio": true,
             "bgColor": "#F2F2F2",
@@ -161,7 +509,7 @@
           "_tags": [
             "Thema"
           ],
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">LEES MEER</a> <a data-app-btn=\"true\" class=\"btn btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">BEKIJK PREVIEW</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"lees-meer.html#buttons1-o\" data-toolbar=\"-mbrBtnMove\">LEES MEER</a> <a data-app-btn=\"true\" class=\"btn btn-info\" href=\"preview.html#msg-box4-1d\" data-toolbar=\"-mbrBtnMove\">BEKIJK PREVIEW</a>",
           "_name": "msg-box3",
           "_anchor": "msg-box3-5"
         },
@@ -183,7 +531,7 @@
             "showButtons": false,
             "iconsBgColor": "#f2f2f2",
             "paddingTop": 2,
-            "paddingBottom": 2,
+            "paddingBottom": "0",
             "columns": 3,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
@@ -298,16 +646,49 @@
         },
         {
           "_params": {
+            "paddingTop": "1",
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"page3.html#header3-14\" data-toolbar=\"-mbrBtnMove\">ALLE TOOLS</a> ",
+          "_tags": [
+            "Thema"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-1e"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_params": {
+            "showMeta": false,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#efefef"
+          },
+          "title": "Voor wie is Antrona geschikt?&nbsp;",
+          "meta": "By John Smith posted July 20, 2016",
+          "_tags": [
+            "Thema"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-1f"
+        },
+        {
+          "_params": {
             "autoplay": true,
             "fullScreen": false,
-            "paddingTop": 3,
+            "paddingTop": "1",
             "paddingBottom": 3,
             "showBullets": true,
-            "bgColor": "#fff",
+            "bgColor": "#efefef",
             "timeout": 5,
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/slide-1-1400x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/coffe-laptop-table-1920x1280.jpg",
                 "active": false,
                 "showButtons": true,
                 "showText": true,
@@ -316,9 +697,9 @@
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "title": "<p>STARTEND BEDRIJF</p>",
                 "overlay": true,
-                "contentAlign": "center",
+                "contentAlign": "left",
                 "text": "Begint de administratie je kopzorgen op te leveren? Dan helpen wij je graag! Wat kunnen we voor je doen? Stel je budgetten in en bewaak ze. Registreer je tijd. Boek je onkosten. Verstuur je facturen. Allemaal met een druk op de knop, naadloos, zonder poespas.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">LEES MEER</a>  "
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"Doelgroepen.html#content7-1q\" data-toolbar=\"-mbrBtnMove\">LEES MEER</a>  "
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/1920-businessman-collaborate-collaboration-872957-1920x1280.jpg",
@@ -332,10 +713,10 @@
                 "overlay": true,
                 "contentAlign": "left",
                 "text": "Je bedrijf is gegroeid. Veel administratieve zaken zijn op orde. Maar sommige tools kunnen beter, of missen nog. Laat Antrona de gaten opvullen! Met gemakkelijk te maken offertes. Met portfolioplanning. Met automatische voeding van je financiële administratie. Met urenregistratie via een app op je telefoon.&nbsp;",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">LEES MEER</a> "
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"Doelgroepen.html#content7-1q\" data-toolbar=\"-mbrBtnMove\">LEES MEER</a> "
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/antrona-project-1-1400x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/bump-collaboration-colleagues-1920x1280.jpg",
                 "active": false,
                 "showButtons": true,
                 "showText": true,
@@ -344,9 +725,9 @@
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "title": "<p>TIJDELIJKE PROJECTORGANISATIE</p>",
                 "overlay": true,
-                "contentAlign": "right",
+                "contentAlign": "center",
                 "text": "Sta je voor de opgave om meerdere samenwerkende partijen snel van adequate tools te voorzien? Met data die naadloos van de ene naar de andere toepassing doorlusr? Kies dan voor Antrona en ga binnen no-time aan de slag. Budgettering en alerts, financiële verrekening en doorbelasting, en managementinformatie op maat.&nbsp;",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">LEES MEER</a> "
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"Doelgroepen.html#content7-1q\" data-toolbar=\"-mbrBtnMove\">LEES MEER</a>  "
               }
             ]
           },
@@ -359,17 +740,18 @@
           "_styles": {
             "P": {
               "font-size": "30px",
-              "text-align": "left"
+              "text-align": "right"
             },
             "H2": {
-              "font-size": "32px"
+              "font-size": "30px",
+              "text-align": "right"
             }
           }
         },
         {
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -483,220 +865,10 @@
         }
       ]
     },
-    "page1.html": {
+    "lees-meer.html": {
       "settings": {
-        "meta_descr": "Web Page Maker Description",
-        "title": "Over Antrona",
-        "order": 2
-      },
-      "components": [
-        {
-          "_inherit": "menu",
-          "_params": {
-            "logo": true,
-            "showBrand": true,
-            "hideButtons": false,
-            "sticky": true,
-            "collapsed": true,
-            "transparent": false,
-            "bgColor": "#282828",
-            "fontSize": 0.75,
-            "fontName": {},
-            "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor"
-          },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">DOELGROEPEN</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">New Item</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">TOOLS</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">OVER ANTRONA</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">Klanten<br></a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"https://mobirise.com/\">PREVIEW</a></li>",
-          "_tags": [
-            "Thema"
-          ],
-          "_styles": {
-            ".hide-buttons .nav-btn": {
-              "display": "none !important"
-            },
-            ".navbar-caption": {
-              "color": "#ffffff"
-            },
-            ".navbar-toggler": {
-              "color": "#ffffff"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
-            },
-            ".link, .dropdown-item": {
-              "color": "#ffffff"
-            },
-            ".link": {
-              "font-size": "0.75rem"
-            },
-            ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.812rem"
-            },
-            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#0e0e0e"
-            },
-            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#202020!important"
-            },
-            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#282828"
-            },
-            ".bg-color.transparent .link": {
-              "color": "#ffffff",
-              "transition": "none"
-            },
-            ".bg-color.transparent.opened .link": {
-              "transition": "color .2s ease-in-out"
-            },
-            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
-            }
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo-121x122.jpg",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Antrona</a>",
-          "_name": "ext.menu",
-          "_anchor": "ext_menu-b"
-        },
-        {
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#2e2e2e",
-            "overlay": true,
-            "overlayColor": "#3C3C3C",
-            "overlayOpacity": 0.8
-          },
-          "logo": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/logo-1-121x122.jpg",
-              "class": "card-img-top",
-              "width": 265,
-              "active": true,
-              "link": "",
-              "alt": "Logo Antrona",
-              "title": "Logo Antrona"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-logo-contacts3",
-              "link": "",
-              "size": 0
-            }
-          },
-          "media1": {
-            "iconFont": {
-              "class": "mbr-iconfont-company-contacts3",
-              "linkInNewWindow": false,
-              "name": "facebook",
-              "family": "et-line",
-              "active": true,
-              "size": 0,
-              "color": "#c1c1c1"
-            }
-          },
-          "media2": {
-            "iconFont": {
-              "class": "mbr-iconfont-company-contacts3",
-              "linkInNewWindow": false,
-              "name": "linkedin",
-              "family": "et-line",
-              "active": true,
-              "size": 0,
-              "color": "#cccccc"
-            }
-          },
-          "media3": {
-            "iconFont": {
-              "class": "mbr-iconfont-company-contacts3",
-              "linkInNewWindow": false,
-              "name": "envelope",
-              "family": "et-line",
-              "active": true,
-              "size": 0,
-              "color": "#2e2e2e"
-            }
-          },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Verzend&nbsp;</a>",
-          "title1": "Volg ons&nbsp;",
-          "text1": "Footer with solid color background and a contact form, Easily add subscribe and contact forms without any server-side integration.",
-          "text2": "<a href=\"https://www.facebook.com/AntronaNL/\" target=\"_blank\">AntronaNL</a>",
-          "text3": "<a href=\"https://www.linkedin.com/company/19057996/admin/\">AntronaNL</a>",
-          "text4": "",
-          "text5": "<p>Facebook</p><p>LinkedIn</p>",
-          "text6": "<strong>Contact</strong><br>Heb je een vraag over Antrona? Laat je gegevens achter via het contactformulier en dan nemen wij zo snel mogelijk contact met je op.&nbsp;<br><br><br><br><br>",
-          "form": {
-            "title": "MESSAGE",
-            "action": "liselottevdijk@hotmail.com",
-            "alerts": {
-              "success": "Thanks for filling out form!"
-            },
-            "fields": {
-              "name": {
-                "visible": false,
-                "title": "Name",
-                "customTitle": "Name*"
-              },
-              "email": {
-                "visible": true,
-                "title": "Email",
-                "customTitle": "Email*"
-              },
-              "phone": {
-                "visible": false,
-                "title": "Phone",
-                "customTitle": "Phone"
-              },
-              "message": {
-                "title": "Message",
-                "customTitle": "Message"
-              }
-            }
-          },
-          "_tags": [
-            "Thema"
-          ],
-          "_name": "contacts3",
-          "_styles": {
-            ".list-group-text": {
-              "color": "#2e2e2e"
-            },
-            "P": {
-              "text-align": "left"
-            },
-            "SPAN": {
-              "color": "#cccccc"
-            }
-          },
-          "_anchor": "contacts3-c"
-        }
-      ]
-    },
-    "page2.html": {
-      "settings": {
-        "meta_descr": "Site Builder Description",
-        "title": "Klanten",
+        "meta_descr": "Web Creator Description",
+        "title": "Lees meer",
         "order": 1
       },
       "components": [
@@ -715,7 +887,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">DOELGROEPEN</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">New Item</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">TOOLS</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">OVER ANTRONA</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">Klanten<br></a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"https://mobirise.com/\">PREVIEW</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Home.html#msg-box3-5\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Doelgroepen.html#content7-1q\" aria-expanded=\"false\">DOELGROEPEN</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html#header3-14\">TOOLS</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Over-Antrona.html#header3-j\" aria-expanded=\"false\">OVER ANTRONA</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"preview.html#msg-box4-1d\">PREVIEW</a></li>",
           "_tags": [
             "Thema"
           ],
@@ -764,7 +936,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
+              "color": "#faaf40!important"
             }
           },
           "logo": {
@@ -784,7 +956,67 @@
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Antrona</a>",
           "_name": "ext.menu",
-          "_anchor": "ext_menu-d"
+          "_anchor": "ext_menu-k"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com/mobirise-free-win.zip\">DOWNLOAD FOR WIN</a> <a data-app-btn=\"true\" class=\"btn btn-black btn-black-outline\" href=\"https://mobirise.com/mobirise-free-mac.zip\">DOWNLOAD FOR MAC</a>",
+          "_tags": [
+            "Thema"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-o"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButton": false,
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/desert.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#F2F2F2",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "<p>ANTRONA</p>",
+          "text": "<p>Propelling your business forward</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>",
+          "_tags": [
+            "Thema"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-r"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<p>Onze ervaring leert dat als je realistisch calculeert, administratieve handelingen meer tijd kosten dan je denkt. Neem bijvoorbeeld het maken en versturen van een factuur. Daarbij moet je ook de voorbereidingstijd meerekenen die het kost om de data te verzamelen en om conceptfacturen te beoordelen. Daarbij is er ook nog de tijd voor opbergen, het boeken in de financiële administratie en de tijd om informatie terug te zoeken bij latere vragen. Maar denk ook aan de tijd die het kost om gewerkte uren en onkosten nauwgezet vast te leggen. </p><p><br></p><p><i>Als je die tijden realistisch optelt, dan blijkt de inzet van Antrona tools vrijwel altijd een hoge 'return on investment' op te leveren.\n</i></p><p><br></p><p>Naast de efficiëntiewinst is er natuurlijk ook de winst in kwaliteit. Denk eens aan de gevolgen als je verkeerde facturen zou sturen.</p>",
+          "_tags": [
+            "Thema"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-q"
         },
         {
           "_styles": {
@@ -792,134 +1024,110 @@
               "text-align": "center"
             },
             ".mbr-section-subtitle": {
-              "text-align": "center"
+              "text-align": "left"
+            },
+            ".mbr-section-title": {
+              "font-size": "36px"
             }
           },
           "_params": {
             "showMeta": true,
-            "paddingTop": "5",
+            "paddingTop": "1",
             "paddingBottom": "1",
-            "bgColor": "#fff"
+            "bgColor": "#efefef"
           },
-          "title": "Over Antrona",
-          "meta": "<br>Antrona is een initiatief van Icorp BV. Icorp levert bedrijfssoftware aan grote en middelgrote bedrijven.<br>Via Antrona komt een selectie van de business-software van Icorp ook beschikbaar voor kleinere bedrijven. <br>In vereenvoudigde vorm. Direct gebruiksklaar.\n<br>\n<br>Deze organisaties gingen je voor:&nbsp;",
+          "title": "Abonnementen",
+          "meta": "<span style=\"font-style: normal;\"><br>De afgelopen jaren hebben we verschillende abonnementen voor Antrona ontwikkeld. Zo weten we zeker dat de software aansluit op de wensen en mogelijkheden van jouw bedrijf. Kijk eens op onderstaande pagina's om te zien in welke categorie je jouw organisatie zou plaatsen. Goed om te weten: de tools die we aan onze doelgroepen aanbieden, zijn hetzelfde. Wat is er dan anders? De schaalgrootte. Daarnaast spelen we in op de behoeften per bedrijfstype.&nbsp;<br></span><br>",
           "_tags": [
             "Thema"
           ],
           "_name": "header3",
-          "_anchor": "header3-j"
+          "_anchor": "header3-m"
         },
         {
           "_params": {
-            "showImages": true,
-            "showTitles": true,
-            "showSubtitles": false,
-            "ShowTexts": false,
-            "showButtons": false,
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "columns": 4,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgColor": "#fff"
           },
-          "media1": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/schiphol-area-development-company-600x400.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": ""
-            }
-          },
-          "media2": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/bureau-stedelijke-planning3-542x400.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": ""
-            }
-          },
-          "media3": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/coworkers.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "media4": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/code-man.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "media5": {
-            "image": {
-              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "media6": {
-            "image": {
-              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "title1": "Schiphol Area Development Company",
-          "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
-          "title2": "Bureau Stedelijke Planning",
-          "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
-          "title3": "De Onderwijsraad",
-          "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
-          "title4": "Multi Corporation",
-          "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
-          "title5": "Trendy Website Blocks",
-          "subtitle5": "Choose from the large selection of blocks",
-          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-          "title6": "Host Anywhere",
-          "subtitle6": "Don't limit yourself to just one platform",
-          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "text": "<p><span style=\"font-size: 1.07rem;\"><b>Benieuwd geworden? Bekijk onze abonnementen en functionaliteiten eens.&nbsp;</b></span><br></p>",
           "_tags": [
             "Thema"
           ],
-          "_name": "features3",
-          "_anchor": "features3-f"
+          "_name": "content1",
+          "_anchor": "content1-u",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          }
         },
         {
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"Abonnement.html#content7-1k\" data-toolbar=\"-mbrBtnMove\">ABONNEMENTEN</a> <a data-app-btn=\"true\" class=\"btn btn-black btn-black-outline\" href=\"page3.html#header3-14\" data-toolbar=\"-mbrBtnMove\">FUNCTIONALITEITEN</a>",
+          "_tags": [
+            "Thema"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-t"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            ".mbr-section-subtitle": {
+              "text-align": "left"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": 1,
+            "paddingBottom": "0",
+            "bgColor": "#efefef"
+          },
+          "title": "Software as a Service",
+          "meta": "<span style=\"font-style: normal;\">Wij bieden onze software online aan. Dit brengt een aantal voordelen met zich mee: &nbsp;</span><br>",
+          "_tags": [
+            "Thema"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-w"
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": 1,
+            "bgColor": "#efefef"
+          },
+          "text": "<blockquote><p><span style=\"font-size: 1.07rem;\">&gt; Antrona is altijd en overal bereikbaar via internet.</span><br></p><p><span style=\"font-size: 1.09rem;\">&gt; Als klant heb je geen eigen licenties nodig. &nbsp;</span></p><p><span style=\"font-size: 1.09rem;\">&gt; De data worden veilig opgeslagen via Microsoft Azure.&nbsp;</span></p><p><span style=\"font-size: 1.09rem;\">&gt; Je hoeft de software niet op je eigen computer of servers te downloaden.&nbsp;</span></p><p><span style=\"font-size: 1.07rem;\">&gt; Installatie van nieuwe versies is niet nodig. &nbsp;</span></p><p><span style=\"font-size: 1.09rem;\">&gt; Er is geen beheer nodig of een IT-afdeling die zaken voor je regelt.&nbsp;</span></p></blockquote>",
+          "_tags": [
+            "Thema"
+          ],
+          "_name": "content2",
+          "_anchor": "content2-v"
+        },
+        {
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "1",
+            "bgColor": "#efefef"
+          },
+          "text": "<p>Ook goed om te weten: we bieden verschillende abonnementen aan die passen bij jouw bedrijf en jouw wensen. Bovendien betaal je alleen voor Antrona als je er daadwerkelijk gebruik van maakt,</p>",
+          "_tags": [
+            "Thema"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-x"
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -1029,7 +1237,122 @@
               "color": "#cccccc"
             }
           },
-          "_anchor": "contacts3-e"
+          "_anchor": "contacts3-l"
+        }
+      ]
+    },
+    "page3.html": {
+      "settings": {
+        "meta_descr": "Web Site Maker Description",
+        "title": "Tools",
+        "order": 4
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Home.html#msg-box3-5\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Doelgroepen.html#content7-1q\" aria-expanded=\"false\">DOELGROEPEN</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html#header3-14\">TOOLS</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Over-Antrona.html#header3-j\" aria-expanded=\"false\">OVER ANTRONA</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"preview.html#msg-box4-1d\">PREVIEW</a></li>",
+          "_tags": [
+            "Thema"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#faaf40!important"
+            }
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-121x122.jpg",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Antrona</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-10"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_params": {
+            "showMeta": false,
+            "paddingTop": "5",
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "title": "Functionaliteiten",
+          "meta": "By John Smith posted July 20, 2016",
+          "_tags": [
+            "Thema"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-14"
         },
         {
           "_params": {
@@ -1037,12 +1360,1024 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text": "<p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. MobiRise Website Builder creates responsive, retina and mobile friendly websites in a few clicks. Mobirise is one of the easiest website development tools <a href=\"http://google.com/\">available</a> today. It also gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.</p>",
+          "text": "<p>Antrona bevat tools voor:\n</p><p>\n</p><p><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAYCAYAAAAGXva8AAAAg0lEQVRIDe2U0QkAIQiG9VaxXWpv53AWD4OLekqEqxcFQ0j767NCVVU4bM9hvS6Xor9ST7yJF1prgIjdSykxIvYjea3War/X4kTkLR95MKJNICKL2CzOzJvqdfrKk3Gf1PZ6HO8HaBaO9NPWQRtiVzBedaWnKRpvmKMy8TogxVOu4H0BUwGYihlTS4cAAAAASUVORK5CYII=\" style=\"font-size: 1.07rem; width: 29px;\"><span style=\"font-size: 1.07rem;\">het aanmaken van projecten, subprojecten of activiteiten; en hun eventuele toegangsrechten.</span><br></p><p><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAYCAYAAAAGXva8AAAAg0lEQVRIDe2U0QkAIQiG9VaxXWpv53AWD4OLekqEqxcFQ0j767NCVVU4bM9hvS6Xor9ST7yJF1prgIjdSykxIvYjea3War/X4kTkLR95MKJNICKL2CzOzJvqdfrKk3Gf1PZ6HO8HaBaO9NPWQRtiVzBedaWnKRpvmKMy8TogxVOu4H0BUwGYihlTS4cAAAAASUVORK5CYII=\" style=\"width: 29px;\">het vastleggen van de belangrijkste kenmerken van contracten.</p><p><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAYCAYAAAAGXva8AAAAg0lEQVRIDe2U0QkAIQiG9VaxXWpv53AWD4OLekqEqxcFQ0j767NCVVU4bM9hvS6Xor9ST7yJF1prgIjdSykxIvYjea3War/X4kTkLR95MKJNICKL2CzOzJvqdfrKk3Gf1PZ6HO8HaBaO9NPWQRtiVzBedaWnKRpvmKMy8TogxVOu4H0BUwGYihlTS4cAAAAASUVORK5CYII=\" style=\"width: 29px;\">het aanmaken van verkooporders.</p><p><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAYCAYAAAAGXva8AAAAg0lEQVRIDe2U0QkAIQiG9VaxXWpv53AWD4OLekqEqxcFQ0j767NCVVU4bM9hvS6Xor9ST7yJF1prgIjdSykxIvYjea3War/X4kTkLR95MKJNICKL2CzOzJvqdfrKk3Gf1PZ6HO8HaBaO9NPWQRtiVzBedaWnKRpvmKMy8TogxVOu4H0BUwGYihlTS4cAAAAASUVORK5CYII=\" style=\"width: 29px;\">het vastleggen van tarieven en prijslijsten.</p><p><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAYCAYAAAAGXva8AAAAg0lEQVRIDe2U0QkAIQiG9VaxXWpv53AWD4OLekqEqxcFQ0j767NCVVU4bM9hvS6Xor9ST7yJF1prgIjdSykxIvYjea3War/X4kTkLR95MKJNICKL2CzOzJvqdfrKk3Gf1PZ6HO8HaBaO9NPWQRtiVzBedaWnKRpvmKMy8TogxVOu4H0BUwGYihlTS4cAAAAASUVORK5CYII=\" style=\"width: 29px;\">het opstellen en bewaken van budgeten, in uren en geld.</p><p><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAYCAYAAAAGXva8AAAAg0lEQVRIDe2U0QkAIQiG9VaxXWpv53AWD4OLekqEqxcFQ0j767NCVVU4bM9hvS6Xor9ST7yJF1prgIjdSykxIvYjea3War/X4kTkLR95MKJNICKL2CzOzJvqdfrKk3Gf1PZ6HO8HaBaO9NPWQRtiVzBedaWnKRpvmKMy8TogxVOu4H0BUwGYihlTS4cAAAAASUVORK5CYII=\" style=\"width: 29px;\">het registreren van gewerkte uren.&nbsp;</p><p><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAYCAYAAAAGXva8AAAAg0lEQVRIDe2U0QkAIQiG9VaxXWpv53AWD4OLekqEqxcFQ0j767NCVVU4bM9hvS6Xor9ST7yJF1prgIjdSykxIvYjea3War/X4kTkLR95MKJNICKL2CzOzJvqdfrKk3Gf1PZ6HO8HaBaO9NPWQRtiVzBedaWnKRpvmKMy8TogxVOu4H0BUwGYihlTS4cAAAAASUVORK5CYII=\" style=\"width: 29px;\">het vastleggen van onkosten. Een foto van een bonnetje voeg je toe met je telefoon\n</p><p><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAYCAYAAAAGXva8AAAAg0lEQVRIDe2U0QkAIQiG9VaxXWpv53AWD4OLekqEqxcFQ0j767NCVVU4bM9hvS6Xor9ST7yJF1prgIjdSykxIvYjea3War/X4kTkLR95MKJNICKL2CzOzJvqdfrKk3Gf1PZ6HO8HaBaO9NPWQRtiVzBedaWnKRpvmKMy8TogxVOu4H0BUwGYihlTS4cAAAAASUVORK5CYII=\" style=\"width: 29px;\">het factureren van opdrachtgevers.\n</p><p><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAYCAYAAAAGXva8AAAAg0lEQVRIDe2U0QkAIQiG9VaxXWpv53AWD4OLekqEqxcFQ0j767NCVVU4bM9hvS6Xor9ST7yJF1prgIjdSykxIvYjea3War/X4kTkLR95MKJNICKL2CzOzJvqdfrKk3Gf1PZ6HO8HaBaO9NPWQRtiVzBedaWnKRpvmKMy8TogxVOu4H0BUwGYihlTS4cAAAAASUVORK5CYII=\" style=\"width: 29px;\">het plannen en bemannen van projecten.</p><p><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAYCAYAAAAGXva8AAAAg0lEQVRIDe2U0QkAIQiG9VaxXWpv53AWD4OLekqEqxcFQ0j767NCVVU4bM9hvS6Xor9ST7yJF1prgIjdSykxIvYjea3War/X4kTkLR95MKJNICKL2CzOzJvqdfrKk3Gf1PZ6HO8HaBaO9NPWQRtiVzBedaWnKRpvmKMy8TogxVOu4H0BUwGYihlTS4cAAAAASUVORK5CYII=\" style=\"width: 29px;\">het opvragen van de stand van zaken op projecten, contracten of klanten.</p><p><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAYCAYAAAAGXva8AAAAg0lEQVRIDe2U0QkAIQiG9VaxXWpv53AWD4OLekqEqxcFQ0j767NCVVU4bM9hvS6Xor9ST7yJF1prgIjdSykxIvYjea3War/X4kTkLR95MKJNICKL2CzOzJvqdfrKk3Gf1PZ6HO8HaBaO9NPWQRtiVzBedaWnKRpvmKMy8TogxVOu4H0BUwGYihlTS4cAAAAASUVORK5CYII=\" style=\"width: 29px;\">het uitdraaien van een bestand met data om je financiële administratie te voeden.&nbsp;</p>",
           "_tags": [
             "Thema"
           ],
           "_name": "content1",
-          "_anchor": "content1-i"
+          "_anchor": "content1-15"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": false,
+            "paddingTop": "1",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#F2F2F2",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "Bekijk de preview",
+          "text": "Voorproefje zien?&nbsp;",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"preview.html#msg-box4-1d\" data-toolbar=\"-mbrBtnMove\">PREVIEW</a>",
+          "_tags": [
+            "Thema"
+          ],
+          "_name": "msg-box1",
+          "_anchor": "msg-box1-13",
+          "_styles": {
+            "H2": {
+              "font-size": "20px"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<p>Ook zijn er - misschien voor later gebruik door jou - verdergaande mogelijkheden voor:\n</p><p>\n</p><p><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAATCAYAAAB7u5a2AAAArUlEQVQ4Ee2TPQoDIRCFxxzBS8jK2ng08RR7Ej2H/Vaew1IrnWAKQeL+QLJFwg4IzlPf6IdDEBHhonhc5Puyvc2HdP8YSykFrLUghIBpmkBrDSmlIYY3sf7zvXDOIaW09kIby7LsHWlrh8y99xBC6C61riuc6b1D83megVLamUspgRDSacOkvWFjknNGYwxyzpExhkopjDFu7O5lUtNh1S+Ih1g+qXGbD+n9LpYn/u2/9PINWzcAAAAASUVORK5CYII=\" style=\"width: 23px;\">het via webservices automatisch voeden van je financiële administratie.&nbsp;</p><p><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAATCAYAAAB7u5a2AAAArUlEQVQ4Ee2TPQoDIRCFxxzBS8jK2ng08RR7Ej2H/Vaew1IrnWAKQeL+QLJFwg4IzlPf6IdDEBHhonhc5Puyvc2HdP8YSykFrLUghIBpmkBrDSmlIYY3sf7zvXDOIaW09kIby7LsHWlrh8y99xBC6C61riuc6b1D83megVLamUspgRDSacOkvWFjknNGYwxyzpExhkopjDFu7O5lUtNh1S+Ih1g+qXGbD+n9LpYn/u2/9PINWzcAAAAASUVORK5CYII=\" style=\"width: 23px;\">het via webservices ophalen en integreren van klant-, contract-, project- of offerteinformatie - bijv. vanuit SalesForce.&nbsp;</p><p><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAATCAYAAAB7u5a2AAAArUlEQVQ4Ee2TPQoDIRCFxxzBS8jK2ng08RR7Ej2H/Vaew1IrnWAKQeL+QLJFwg4IzlPf6IdDEBHhonhc5Puyvc2HdP8YSykFrLUghIBpmkBrDSmlIYY3sf7zvXDOIaW09kIby7LsHWlrh8y99xBC6C61riuc6b1D83megVLamUspgRDSacOkvWFjknNGYwxyzpExhkopjDFu7O5lUtNh1S+Ih1g+qXGbD+n9LpYn/u2/9PINWzcAAAAASUVORK5CYII=\" style=\"width: 23px;\">het via webservices ophalen van transactiedata - bijv. over verrichtingen van zorgverleners, aandelentransacties op de beurs, verkopen in &nbsp;&nbsp;&nbsp;&nbsp;een webshop, afgesloten abonnementen - als grondstof voor verdere bewerking tot bijv. automatische facturen.&nbsp;</p><p><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAATCAYAAAB7u5a2AAAArUlEQVQ4Ee2TPQoDIRCFxxzBS8jK2ng08RR7Ej2H/Vaew1IrnWAKQeL+QLJFwg4IzlPf6IdDEBHhonhc5Puyvc2HdP8YSykFrLUghIBpmkBrDSmlIYY3sf7zvXDOIaW09kIby7LsHWlrh8y99xBC6C61riuc6b1D83megVLamUspgRDSacOkvWFjknNGYwxyzpExhkopjDFu7O5lUtNh1S+Ih1g+qXGbD+n9LpYn/u2/9PINWzcAAAAASUVORK5CYII=\" style=\"width: 23px;\">maatgesneden data-entry - bijv. voor het ingeven van aantallen van geladen en ontladen soorten containers op een schip\n</p><p><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAATCAYAAAB7u5a2AAAArUlEQVQ4Ee2TPQoDIRCFxxzBS8jK2ng08RR7Ej2H/Vaew1IrnWAKQeL+QLJFwg4IzlPf6IdDEBHhonhc5Puyvc2HdP8YSykFrLUghIBpmkBrDSmlIYY3sf7zvXDOIaW09kIby7LsHWlrh8y99xBC6C61riuc6b1D83megVLamUspgRDSacOkvWFjknNGYwxyzpExhkopjDFu7O5lUtNh1S+Ih1g+qXGbD+n9LpYn/u2/9PINWzcAAAAASUVORK5CYII=\" style=\"width: 23px;\">licht voorraadbeheer\n</p><p><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAATCAYAAAB7u5a2AAAArUlEQVQ4Ee2TPQoDIRCFxxzBS8jK2ng08RR7Ej2H/Vaew1IrnWAKQeL+QLJFwg4IzlPf6IdDEBHhonhc5Puyvc2HdP8YSykFrLUghIBpmkBrDSmlIYY3sf7zvXDOIaW09kIby7LsHWlrh8y99xBC6C61riuc6b1D83megVLamUspgRDSacOkvWFjknNGYwxyzpExhkopjDFu7O5lUtNh1S+Ih1g+qXGbD+n9LpYn/u2/9PINWzcAAAAASUVORK5CYII=\" style=\"width: 23px;\">reserveringen, zowel voor consumenten op internet als de interne back-office - bijv. voor tennishal, kanoverhuur, kapperszaak of &nbsp;&nbsp;&nbsp;&nbsp;waterskibaan\n</p><p><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAATCAYAAAB7u5a2AAAArUlEQVQ4Ee2TPQoDIRCFxxzBS8jK2ng08RR7Ej2H/Vaew1IrnWAKQeL+QLJFwg4IzlPf6IdDEBHhonhc5Puyvc2HdP8YSykFrLUghIBpmkBrDSmlIYY3sf7zvXDOIaW09kIby7LsHWlrh8y99xBC6C61riuc6b1D83megVLamUspgRDSacOkvWFjknNGYwxyzpExhkopjDFu7O5lUtNh1S+Ih1g+qXGbD+n9LpYn/u2/9PINWzcAAAAASUVORK5CYII=\" style=\"width: 23px;\"><i>en meer, vooral op het gebied van koppelingen met andere systemen.</i></p>",
+          "_tags": [
+            "Thema"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-16"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": "0",
+            "bgColor": "#fff"
+          },
+          "text": "<p><b>Benieuwd geworden? Lees hier meer over het aflsuiten van een abonnement.&nbsp;</b></p>",
+          "_tags": [
+            "Thema"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-18",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"Abonnement.html#content7-1k\" data-toolbar=\"-mbrBtnMove\">ABONNEMENT</a> ",
+          "_tags": [
+            "Thema"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-17"
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/logo-1-121x122.jpg",
+              "class": "card-img-top",
+              "width": 265,
+              "active": true,
+              "link": "",
+              "alt": "Logo Antrona",
+              "title": "Logo Antrona"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-logo-contacts3",
+              "link": "",
+              "size": 0
+            }
+          },
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont-company-contacts3",
+              "linkInNewWindow": false,
+              "name": "facebook",
+              "family": "et-line",
+              "active": true,
+              "size": 0,
+              "color": "#c1c1c1"
+            }
+          },
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont-company-contacts3",
+              "linkInNewWindow": false,
+              "name": "linkedin",
+              "family": "et-line",
+              "active": true,
+              "size": 0,
+              "color": "#cccccc"
+            }
+          },
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont-company-contacts3",
+              "linkInNewWindow": false,
+              "name": "envelope",
+              "family": "et-line",
+              "active": true,
+              "size": 0,
+              "color": "#2e2e2e"
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Verzend&nbsp;</a>",
+          "title1": "Volg ons&nbsp;",
+          "text1": "Footer with solid color background and a contact form, Easily add subscribe and contact forms without any server-side integration.",
+          "text2": "<a href=\"https://www.facebook.com/AntronaNL/\" target=\"_blank\">AntronaNL</a>",
+          "text3": "<a href=\"https://www.linkedin.com/company/19057996/admin/\">AntronaNL</a>",
+          "text4": "",
+          "text5": "<p>Facebook</p><p>LinkedIn</p>",
+          "text6": "<strong>Contact</strong><br>Heb je een vraag over Antrona? Laat je gegevens achter via het contactformulier en dan nemen wij zo snel mogelijk contact met je op.&nbsp;<br><br><br><br><br>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "liselottevdijk@hotmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "visible": false,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": false,
+                "title": "Phone",
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "_tags": [
+            "Thema"
+          ],
+          "_name": "contacts3",
+          "_styles": {
+            ".list-group-text": {
+              "color": "#2e2e2e"
+            },
+            "P": {
+              "text-align": "left"
+            },
+            "SPAN": {
+              "color": "#cccccc"
+            }
+          },
+          "_anchor": "contacts3-11"
+        }
+      ]
+    },
+    "preview.html": {
+      "settings": {
+        "meta_descr": "Web Site Builder Description",
+        "title": "Preview",
+        "order": 3
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Home.html#msg-box3-5\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Doelgroepen.html#content7-1q\" aria-expanded=\"false\">DOELGROEPEN</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html#header3-14\">TOOLS</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Over-Antrona.html#header3-j\" aria-expanded=\"false\">OVER ANTRONA</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"preview.html#msg-box4-1d\">PREVIEW</a></li>",
+          "_tags": [
+            "Thema"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#faaf40!important"
+            }
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-121x122.jpg",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Antrona</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-19"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false,
+            "inverse": true,
+            "imageSize": 50,
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#F2F2F2",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/gallery/desktop.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "INTRO WITH YOUTUBE VIDEO",
+          "text": "<p>Online video and Youtube particularly is now more popular than cable television.</p>",
+          "_tags": [
+            "Thema"
+          ],
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-1d"
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/logo-1-121x122.jpg",
+              "class": "card-img-top",
+              "width": 265,
+              "active": true,
+              "link": "",
+              "alt": "Logo Antrona",
+              "title": "Logo Antrona"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-logo-contacts3",
+              "link": "",
+              "size": 0
+            }
+          },
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont-company-contacts3",
+              "linkInNewWindow": false,
+              "name": "facebook",
+              "family": "et-line",
+              "active": true,
+              "size": 0,
+              "color": "#c1c1c1"
+            }
+          },
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont-company-contacts3",
+              "linkInNewWindow": false,
+              "name": "linkedin",
+              "family": "et-line",
+              "active": true,
+              "size": 0,
+              "color": "#cccccc"
+            }
+          },
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont-company-contacts3",
+              "linkInNewWindow": false,
+              "name": "envelope",
+              "family": "et-line",
+              "active": true,
+              "size": 0,
+              "color": "#2e2e2e"
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Verzend&nbsp;</a>",
+          "title1": "Volg ons&nbsp;",
+          "text1": "Footer with solid color background and a contact form, Easily add subscribe and contact forms without any server-side integration.",
+          "text2": "<a href=\"https://www.facebook.com/AntronaNL/\" target=\"_blank\">AntronaNL</a>",
+          "text3": "<a href=\"https://www.linkedin.com/company/19057996/admin/\">AntronaNL</a>",
+          "text4": "",
+          "text5": "<p>Facebook</p><p>LinkedIn</p>",
+          "text6": "<strong>Contact</strong><br>Heb je een vraag over Antrona? Laat je gegevens achter via het contactformulier en dan nemen wij zo snel mogelijk contact met je op.&nbsp;<br><br><br><br><br>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "liselottevdijk@hotmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "visible": false,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": false,
+                "title": "Phone",
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "_tags": [
+            "Thema"
+          ],
+          "_name": "contacts3",
+          "_styles": {
+            ".list-group-text": {
+              "color": "#2e2e2e"
+            },
+            "P": {
+              "text-align": "left"
+            },
+            "SPAN": {
+              "color": "#cccccc"
+            }
+          },
+          "_anchor": "contacts3-1a"
+        }
+      ]
+    },
+    "Abonnement.html": {
+      "settings": {
+        "meta_descr": "Website Maker Description",
+        "title": "Abonnement",
+        "order": 2
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Home.html#msg-box3-5\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Doelgroepen.html#content7-1q\" aria-expanded=\"false\">DOELGROEPEN</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html#header3-14\">TOOLS</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Over-Antrona.html#header3-j\" aria-expanded=\"false\">OVER ANTRONA</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"preview.html#msg-box4-1d\">PREVIEW</a></li>",
+          "_tags": [
+            "Thema"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#faaf40!important"
+            }
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-121x122.jpg",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Antrona</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-1g"
+        },
+        {
+          "_params": {
+            "paddingTop": "7",
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text1": "<p><b>Abonnement</b></p>",
+          "text2": "<p><b>Abonnement afsluiten</b></p>",
+          "text3": "<p><b>Bedrijfstype\n</b></p>",
+          "_tags": [
+            "Thema"
+          ],
+          "_name": "content7",
+          "_anchor": "content7-1k",
+          "_styles": {
+            "P": {
+              "text-align": "center",
+              "font-size": "24px"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text1": "<p>Wij geloven in de kwaliteit van onze tools. Een echt abonnement met langdurige verplichtingen is niet nodig. Je betaalt voor de tools die je in een bepaalde periode gebruikt. Dat is doorgaans per gebruiker, maar de betaling kan ook per transactie verlopen. Maak je geen gebruik meer van Antrona? Dan is je abonnement in feite beëindigd.\n</p>",
+          "text2": "<p>Ben je geïnteresseerd in Antrona of wil je onze software tijdelijk uitproberen? Vul dan het contactformulier onderaan deze pagina in.&nbsp;<span style=\"font-size: 1.07rem;\">Wij nemen dan via e-mail contact met je op voor een probeerversie en een kostenindicatie. Ook als je andere vragen hebt over Antrona, kun je ons zo bereiken.</span></p>",
+          "text3": "<p>Wat voor type bedrijf of organisatie heb je? In welke sector ben je werkzaam? Afhankelijk van jouw type bedrijf bieden we verschillende tools aan. We spelen dus in op wat jij nodig hebt binnen jouw sector. Op deze manier weet je zeker dat je geen tools tekort komt, én dat je pakket geen overbodige tools bevat.\n</p>",
+          "_tags": [
+            "Thema"
+          ],
+          "_name": "content7",
+          "_anchor": "content7-1i"
+        },
+        {
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgColor": "#efefef"
+          },
+          "text": "<p><br></p><p>\n</p><p><b>Maak je interesse kenbaar!</b></p>",
+          "_tags": [
+            "Thema"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-1l",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#efefef"
+          },
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-black btn-black-outline\" href=\"https://mobirise.com/mobirise-free-mac.zip\" data-toolbar=\"-mbrBtnMove\">FORMULIER</a>",
+          "_tags": [
+            "Thema"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-1m"
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/logo-1-121x122.jpg",
+              "class": "card-img-top",
+              "width": 265,
+              "active": true,
+              "link": "",
+              "alt": "Logo Antrona",
+              "title": "Logo Antrona"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-logo-contacts3",
+              "link": "",
+              "size": 0
+            }
+          },
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont-company-contacts3",
+              "linkInNewWindow": false,
+              "name": "facebook",
+              "family": "et-line",
+              "active": true,
+              "size": 0,
+              "color": "#c1c1c1"
+            }
+          },
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont-company-contacts3",
+              "linkInNewWindow": false,
+              "name": "linkedin",
+              "family": "et-line",
+              "active": true,
+              "size": 0,
+              "color": "#cccccc"
+            }
+          },
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont-company-contacts3",
+              "linkInNewWindow": false,
+              "name": "envelope",
+              "family": "et-line",
+              "active": true,
+              "size": 0,
+              "color": "#2e2e2e"
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Verzend&nbsp;</a>",
+          "title1": "Volg ons&nbsp;",
+          "text1": "Footer with solid color background and a contact form, Easily add subscribe and contact forms without any server-side integration.",
+          "text2": "<a href=\"https://www.facebook.com/AntronaNL/\" target=\"_blank\">AntronaNL</a>",
+          "text3": "<a href=\"https://www.linkedin.com/company/19057996/admin/\">AntronaNL</a>",
+          "text4": "",
+          "text5": "<p>Facebook</p><p>LinkedIn</p>",
+          "text6": "<strong>Contact</strong><br>Heb je een vraag over Antrona? Laat je gegevens achter via het contactformulier en dan nemen wij zo snel mogelijk contact met je op.&nbsp;<br><br><br><br><br>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "liselottevdijk@hotmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "visible": false,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": false,
+                "title": "Phone",
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "_tags": [
+            "Thema"
+          ],
+          "_name": "contacts3",
+          "_styles": {
+            ".list-group-text": {
+              "color": "#2e2e2e"
+            },
+            "P": {
+              "text-align": "left"
+            },
+            "SPAN": {
+              "color": "#cccccc"
+            }
+          },
+          "_anchor": "contacts3-1h"
+        }
+      ]
+    },
+    "Doelgroepen.html": {
+      "settings": {
+        "meta_descr": "Web Page Creator Description",
+        "title": "Doelgroepen",
+        "order": 1
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Home.html#msg-box3-5\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Doelgroepen.html#content7-1q\" aria-expanded=\"false\">DOELGROEPEN</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html#header3-14\">TOOLS</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Over-Antrona.html#header3-j\" aria-expanded=\"false\">OVER ANTRONA</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"preview.html#msg-box4-1d\">PREVIEW</a></li>",
+          "_tags": [
+            "Thema"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#faaf40!important"
+            }
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-121x122.jpg",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Antrona</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-1n"
+        },
+        {
+          "_params": {
+            "paddingTop": "6",
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text1": "<p><b>Bedrijf met </b></p><p><b>1 tot 5 werkemers</b></p>",
+          "text2": "<p><b>Bedrijf met </b></p><p><b>5 tot 50 werknemers\n</b></p>",
+          "text3": "<p><b>Tijdelijke </b></p><p><b>projectorganisatie\n</b></p>",
+          "_tags": [
+            "Thema"
+          ],
+          "_name": "content7",
+          "_anchor": "content7-1q",
+          "_styles": {
+            "P": {
+              "font-size": "24px",
+              "text-align": "center"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text1": "<p><span style=\"font-size: 1.07rem;\">Met een klein startend bedrijf heb je in het begin niet veel oog voor randverschijnselen. De opbouw van je bedrijf gaat voor alles. Al snel blijk je toch tegen een aantal zaken dingen aan te lopen. Hoe lang werk je ergens aan? Hoe stuur ik rekeningen uit? Hoe leg ik afspraken met mijn groeiende klantenkring vast? Welke tarieven hanteer ik? Hoe verhoog ik ze simpel aan het eind van het jaar?&nbsp;</span><br></p><p>\n</p><p><br></p>",
+          "text2": "<p><span style=\"font-size: 1.07rem;\">Je bedrijf begint te lopen. Een groot deel van de administratie is op orde. Maar sommige tools kunnen beter of ontbreken nog. De software van Antrona kan je hier helpen!&nbsp;</span><br></p><p>Met het snel en eenvoudig maken van offertes. Met de registratie van je uren en onkosten via een app op je telefoon. Met portfolioplanning. Met lichte voorraadregistratie. En met automatische voeding van je financiële administratie.</p>",
+          "text3": "<p><span style=\"font-size: 1.07rem;\">Antrona is er ook voor ondernemers die een tijdelijk samenwerkingsverband. Wij helpen je om alle partijen snel van de juiste tools te voorzien. Zo worden de data snel gedeeld tussen verschillende toepassingen. Binnen de kortste tijd staan onze tools voor budgettering en alerts, voor financiële verrekening en doorbelasting, voor managementinformatie en meer voor je klaar. Op maat ingesteld.</span><br></p>",
+          "_tags": [
+            "Thema"
+          ],
+          "_name": "content7",
+          "_anchor": "content7-1p"
+        },
+        {
+          "_inherit": "msg-box8",
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#000"
+            }
+          },
+          "_params": {
+            "showTitle": false,
+            "showText": true,
+            "showButton": true,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/desert.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#F2F2F2",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "MODERN STYLES",
+          "text": "<p>Wij helpen je met elk vraagstuk. Met oplossingen die niet als eilandjes werken, maar geïntegreerd en consistent.</p>",
+          "_tags": [
+            "Thema"
+          ],
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"Abonnement.html#content7-1k\" data-toolbar=\"-mbrBtnMove\">ABONNEMENT</a> <a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"page3.html#header3-14\" data-toolbar=\"-mbrBtnMove\">FUNCTIONALITEITEN</a>",
+          "_name": "msg-box3",
+          "_anchor": "msg-box3-1t"
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/logo-1-121x122.jpg",
+              "class": "card-img-top",
+              "width": 265,
+              "active": true,
+              "link": "",
+              "alt": "Logo Antrona",
+              "title": "Logo Antrona"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-logo-contacts3",
+              "link": "",
+              "size": 0
+            }
+          },
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont-company-contacts3",
+              "linkInNewWindow": false,
+              "name": "facebook",
+              "family": "et-line",
+              "active": true,
+              "size": 0,
+              "color": "#c1c1c1"
+            }
+          },
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont-company-contacts3",
+              "linkInNewWindow": false,
+              "name": "linkedin",
+              "family": "et-line",
+              "active": true,
+              "size": 0,
+              "color": "#cccccc"
+            }
+          },
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont-company-contacts3",
+              "linkInNewWindow": false,
+              "name": "envelope",
+              "family": "et-line",
+              "active": true,
+              "size": 0,
+              "color": "#2e2e2e"
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Verzend&nbsp;</a>",
+          "title1": "Volg ons&nbsp;",
+          "text1": "Footer with solid color background and a contact form, Easily add subscribe and contact forms without any server-side integration.",
+          "text2": "<a href=\"https://www.facebook.com/AntronaNL/\" target=\"_blank\">AntronaNL</a>",
+          "text3": "<a href=\"https://www.linkedin.com/company/19057996/admin/\">AntronaNL</a>",
+          "text4": "",
+          "text5": "<p>Facebook</p><p>LinkedIn</p>",
+          "text6": "<strong>Contact</strong><br>Heb je een vraag over Antrona? Laat je gegevens achter via het contactformulier en dan nemen wij zo snel mogelijk contact met je op.&nbsp;<br><br><br><br><br>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "liselottevdijk@hotmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "visible": false,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": false,
+                "title": "Phone",
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "_tags": [
+            "Thema"
+          ],
+          "_name": "contacts3",
+          "_styles": {
+            ".list-group-text": {
+              "color": "#2e2e2e"
+            },
+            "P": {
+              "text-align": "left"
+            },
+            "SPAN": {
+              "color": "#cccccc"
+            }
+          },
+          "_anchor": "contacts3-1o"
         }
       ]
     }
